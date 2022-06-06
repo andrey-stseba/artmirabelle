@@ -235,7 +235,7 @@
         }
     }
     let gotoblock_gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) => {
-        const targetBlockElement = document.querySelector(targetBlock);
+        const targetBlockElement = targetBlock;
         if (targetBlockElement) {
             let headerItem = "";
             let headerItemHeight = 0;
